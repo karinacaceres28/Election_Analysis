@@ -1,42 +1,102 @@
-#The data we need to retreieve
+from optparse import Values
 
-#add out our dependencies
-import csv
-import os
 
-# Assign a variable for the file to load and the path ((3.4.2))
-file_to_load = '/Users/kweeniehutjrs/Desktop/Analysis Projects/Stock Analysis, Unit 3/election_analysis/Resources/election_results.csv'
-mainPath = '/Users/kweeniehutjrs/Desktop/Analysis Projects/Stock Analysis, Unit 3/election_analysis/Resources/analysis'
+print("Hello World")
 
-# Create a filename variable to a direct or indirect path to the file.
-file_to_save = os.path.join(mainPath, "election_analysis.txt")
+#creating a list of counties (if statement)
+counties = ["Arapahoe" , "Denver", "Jefferson"]
+if counties[1] == "Denver":
+        print(counties[1])
+#output is DENVER
 
-# Open the election results and READ the file.
-with open(file_to_load) as election_data:
-    file_reader = csv.reader(election_data)
+#single (if-else)
+counties = ["Arapahoe","Denver","Jefferson"]
+if "El Paso" in counties:
+    print("El Paso is in the list of counties.")
+else:
+    print("El Paso is not the list of counties.")  
+#output is "EL Paso is not in the list of counties" b/c else/false
 
-    # Read and print the header row.
-    headers = next(file_reader)
-    print(headers)
+#membership and logical operators practice using AND and IN
+if "Arapahoe" in counties and "El Paso" in counties:
+    print("Arapahoe and El Paso are in the list of counties.")
+else:
+    print("Arapahoe or El Paso is not in the list of counties.")
+#output "Arapahoe or El Paso is not in the list of countries" b/c else/false
 
-####
-# Close the file.
-election_data.close()
+#membership and loginal operators practice using IS IN and OR
+if "Arapahoe" in counties or "El Paso" in counties:
+    print("Arapahoe or El Paso is in the list of counties.")
+else:
+    print("Arapahoe and El Paso are not in the list of counties.")
+#output "Arapahoe or El Paso is in the list of counties" because if/true
 
-# Using the open() function with the "w" mode we will write data to the file.
-open(file_to_save, "w")
+if "Arapahoe" in counties and "El Paso" not in counties:
+   print("Only Arapahoe is in the list of counties.")
+else:
+    print("Arapahoe is in the list of counties and El Paso is not in the list of counties.")
+#output "Only Arapahoe is in the list of counties" b/c if/true
 
-# Create a filename variable to a direct or indirect path to the file.p
-file_to_save = os.path.join(mainPath, "election_analysis.txt")
+#practicing iterate thru list and tuples ((3.2.10))
+for county in counties:
+    print(county)
+#it loops thru all the ((3)) counties
+#output will first be "Arapahoe", b/c its the first, 2nd is "Denver", b/c its 2nd, 3rd is "Jefferson", b/c 3rd.
 
-# Using the with statement open the file as a text file.
-with open(file_to_save, "w") as txt_file:
 
-    #you can continue to write using the write()
-    txt_file.write("Counties in the Election\n-------------------------\nArapahoe\nDenver\nJefferson")
+#practicing iterate thru a dictionary ((3.2.10))
+counties_dict = {"Arapahoe": 422829, "Denver": 463353, "Jefferson": 432438}
 
-#1. The total number of votess cast
-#2. A complete list of candidates who received votes
-#3. The percentage of votes each candidate won
-#4. The total number of votes each candidate won
-#5. The winner of the election based on pupular vote
+#to get the keys of a dictionary
+for county in counties_dict:
+    print(county)
+#same output as before, where Arapahoe is first, etc
+
+#we can also use key() to iterate over a dictionary to keys
+for county in counties_dict.keys():
+    print(county)
+#same output as before, where Araphoe 1st, etc
+
+#we can get values of keys from the two examples listed below
+#1
+for voters in counties_dict.values():
+    print(voters)
+
+#2
+for county in counties_dict:
+    print(counties_dict.get(county))
+
+for county, voters in counties_dict.items():
+    print(county, voters)
+
+#ask about skill drill found on 3.2.10
+for county, voters in counties_dict.items():
+    print(county, str("county has "), voters, str("registered voters"))
+
+#the use of f-string: is used to help condence our code. ((3.2.11))
+#the code below is what the OG code is
+my_votes = int(input("How many votes did you get in the election? "))
+total_votes = int(input("What is the total votes in the election? "))
+percentage_votes = (my_votes / total_votes) * 100
+print("I received " + str(percentage_votes)+"% of the total votes.")
+
+#the one below is an f-string eg ((3.2.11))
+my_votes = int(input("How many votes did you get in the election? "))
+total_votes = int(input("What is the total votes in the election? "))
+print(f"I received {my_votes / total_votes * 100}% of the total votes.")
+
+#practicing multi f-sting ((3.2.11))
+candidate_votes = int(input("How many votes did the candidate get in the election? "))
+total_votes = int(input("What is the total number of votes in the election? "))
+message_to_candidate = (
+    f"You received {candidate_votes} number of votes. "
+    f"The total number of votes in the election was {total_votes}. "
+    f"You received {candidate_votes / total_votes * 100}% of the total votes.")
+
+print(message_to_candidate)
+
+#SKILL DRILL ((3.2.11))
+counties_dict = {"Arapahoe": 422829, "Denver": 463353, "Jefferson": 432438}
+for county, voters in counties_dict.items():
+    print(f"{county} county has {voters} registered voters.")
+
