@@ -12,7 +12,7 @@ import os
 
 # Assign a variable for the file to load and the path ((3.4.2))
 file_to_load = '/Users/kweeniehutjrs/Desktop/Analysis Projects/Stock Analysis, Unit 3/election_analysis/Resources/election_results.csv'
-mainPath = '/Users/kweeniehutjrs/Desktop/Analysis Projects/Stock Analysis, Unit 3/election_analysis/Resources/analysis'
+mainPath = '/Users/kweeniehutjrs/Desktop/Analysis Projects/Stock Analysis, Unit 3/election_analysis/analysis'
 # Create a filename variable to a direct or indirect path to the file.
 file_to_save = os.path.join(mainPath, "election_analysis.txt")
 
