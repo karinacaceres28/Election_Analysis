@@ -12,6 +12,7 @@ Tom, current employee of the Colorado board of elections, has asked for my assis
 
 ## Election-Audit Results
 The image below summarizes the results of the election.
+![E election_analysis txt](https://user-images.githubusercontent.com/110318652/193180113-2c21bf70-7c6e-4ed6-9b25-cce0108c79f4.jpeg)
 
 •	The total number of votes casted for Jefferson, Denver, and Arapahoe county totaled 369,711 votes. 
 
