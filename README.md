@@ -14,15 +14,15 @@ Tom, current employee of the Colorado board of elections, has asked for my assis
 The image below summarizes the results of the election.
 ![E election_analysis txt](https://user-images.githubusercontent.com/110318652/193180113-2c21bf70-7c6e-4ed6-9b25-cce0108c79f4.jpeg)
 
-•	The total number of votes casted for Jefferson, Denver, and Arapahoe county totaled 369,711 votes. 
+    •	The total number of votes casted for Jefferson, Denver, and Arapahoe county totaled 369,711 votes. 
 
-•	Jefferson county had 10.5% of the popular vote, having 38,855 votes. Denver county had a leading 82.8% of the popular vote with 306,055 votes. Arapahoe had the lowest, with 6.7% of votes and 24,801 votes.
+    •	Jefferson county had 10.5% of the popular vote, having 38,855 votes. Denver county had a leading 82.8% of the popular vote with 306,055 votes. Arapahoe had the lowest, with 6.7% of votes and 24,801 votes.
 
-•	Denver county had the largest number of votes, having 82.8%, leading with 306,055 votes.
+    •	Denver county had the largest number of votes, having 82.8%, leading with 306,055 votes.
 
-•	Charles Casper Stockham had received 23.0% of votes, having 85,213 votes. Diana DeGette had 73.8% of votes, being 272,892 votes. Raymond had the lowest with only 3.1% of votes, being 11,606.
+    •	Charles Casper Stockham had received 23.0% of votes, having 85,213 votes. Diana DeGette had 73.8% of votes, being 272,892 votes. Raymond had the lowest with only 3.1% of votes, being 11,606.
 
-•	The winner of the election was Diana DeGette, leading with a total of 272,892 votes with 73.8%
+    •	The winner of the election was Diana DeGette, leading with a total of 272,892 votes with 73.8%
 
 ## Election-Audio Summary
 
