@@ -34,6 +34,5 @@ The image below summarizes the results of the election.
   
   <img width="223" alt="Screen Shot 2022-09-29 at 10 31 49 PM" src="https://user-images.githubusercontent.com/110318652/193180657-0c9d9dab-3186-4c39-860a-07f182b8bf82.png">
 
-
 ## Election-Audio Summary
-
+The code utilized to perform this analysis has proven to be an efficient tool for the election commission based on its ability to obtain results of this election. It also has the potential for versatility, as it can be modified to obtain any information needed for future elections. An example of modification can include the filtering of candidates from different counties, or cities, as it is easy to dictate the code for any election. Another example of modifications includes filtering in a smaller scale, such as that of a school board. No matter the number of candidates or counties, the code used is a wonderful tool that could be used as a template to in aid any future elections.
