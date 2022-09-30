@@ -15,14 +15,20 @@ The image below summarizes the results of the election.
 ![E election_analysis txt](https://user-images.githubusercontent.com/110318652/193180113-2c21bf70-7c6e-4ed6-9b25-cce0108c79f4.jpeg)
 
   •	The total number of votes casted for Jefferson, Denver, and Arapahoe county totaled 369,711 votes. 
-
+    <img width="230" alt="Screen Shot 2022-09-29 at 10 29 31 PM" src="https://user-images.githubusercontent.com/110318652/193180403-ff33d303-1373-4e8b-8437-61cf8e1d742e.png">
+    
   •	Jefferson county had 10.5% of the popular vote, having 38,855 votes. Denver county had a leading 82.8% of the popular vote with 306,055 votes. Arapahoe had the lowest, with 6.7% of votes and 24,801 votes.
+<img width="220" alt="Screen Shot 2022-09-29 at 10 30 21 PM" src="https://user-images.githubusercontent.com/110318652/193180495-0b4c77db-abba-426d-9baf-60d685459fc8.png">
 
   •	Denver county had the largest number of votes, having 82.8%, leading with 306,055 votes.
+<img width="235" alt="Screen Shot 2022-09-29 at 10 30 56 PM" src="https://user-images.githubusercontent.com/110318652/193180544-c176b4de-e512-4365-bf54-e46b354c49f4.png">
 
   •	Charles Casper Stockham had received 23.0% of votes, having 85,213 votes. Diana DeGette had 73.8% of votes, being 272,892 votes. Raymond had the lowest with only 3.1% of votes, being 11,606.
+  <img width="319" alt="Screen Shot 2022-09-29 at 10 31 22 PM" src="https://user-images.githubusercontent.com/110318652/193180601-0a81b722-512f-483f-8f24-c8679c937936.png">
 
-  •	The winner of the election was Diana DeGette, leading with a total of 272,892 votes with 73.8%
+  •	The winner of the election was Diana DeGette, leading with a total of 272,892 votes with 73.8%.
+  <img width="223" alt="Screen Shot 2022-09-29 at 10 31 49 PM" src="https://user-images.githubusercontent.com/110318652/193180657-0c9d9dab-3186-4c39-860a-07f182b8bf82.png">
+
 
 ## Election-Audio Summary
 
