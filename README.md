@@ -1,7 +1,7 @@
 # election_analysis
 
 ## Overview of Election Audit
-Tom, current employee of the Colorado board of elections, has asked for my assistance in an election audit of the tabulated results for a US congressional precinct in Colorado. I was tasked with the following:
+Tom, a current employee of the Colorado board of elections, has asked for my assistance in an election audit of the tabulated results for a US congressional precinct in Colorado. I was tasked with the following:
     1.	Calculate the total number of votes casted
     2.	Calculate the total number of votes for each candidate
     3.	What the percentage of votes for the candidates
